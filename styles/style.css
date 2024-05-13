@@ -1,0 +1,72 @@
+.margin-right-img-jeux, .margin-carte-evennement {
+    margin-right: 7.021rem;
+}
+
+#section-presentation, #section-experiences-formations {
+    display: flex;
+}
+
+#presentation, #informations {
+    max-width: 664px;
+}
+
+#presentation, .img-presentation, #informations, #experiences, #formations, #competences {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#presentation-img {
+    display: flex;
+    max-width: 29rem;
+    max-height: 29rem;
+    flex-direction: column;
+}
+
+.img-presentation {
+    max-width: 29rem;
+}
+
+#section-jeux {
+    display: flex;
+    flex-direction: column;
+}
+
+#grille-jeux, #container-cartes-evennement {
+    display: flex;
+    justify-content: center;
+}
+
+#grille-jeux img {
+    width: 250px;
+    height: 250px;
+}
+
+#section-grille-tarifaire {
+    display: flex;
+    flex-direction: column;
+    background-color: #deddd7;
+}
+
+#section-evennements {
+    display: flex;
+    flex-direction: column;
+}
+
+.carte-evennement {
+    border: solid 1px black;
+    height: 250px;
+    width: 250px;
+}
+
+#section-liens-utiles {
+    background-color: #deddd7;
+}
+
+#section-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+#social-links {
+    display: flex;
+    justify-content: center;
+}
