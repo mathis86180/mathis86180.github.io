@@ -21,7 +21,7 @@
 }
 
 .description-mission, .texte-infos {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .client {
@@ -50,13 +50,13 @@
     flex: 1;
 }
 
-#presentation-img {
-    display: flex;
-    flex-direction: column;
-}
-
 .img-presentation {
-    max-width: 29rem;
+    width: 100%; /* Set the desired width of the container */
+    height: 300px; /* Set the desired height of the container */
+    background-image: url("../img/78997719_2744073535710524_2193176074190323712_n.jpg");
+    background-size: cover; /* Scale the background image to cover the container */
+    background-position: center; /* Center the background image within the container */
+    background-repeat: no-repeat;
 }
 
 
@@ -69,4 +69,10 @@
 
 .column {
     padding: 10px;
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .img-presentation {
+        max-width: 28rem;
+    }
 }
