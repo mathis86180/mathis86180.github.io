@@ -1,0 +1,74 @@
+.svg {
+    width: 30px;
+    height: 30px;
+}
+
+#section-presentation, .svg-titre, .container-svg-infos {
+    display: flex;
+}
+
+.svg-titre {
+    align-items: center;
+    justify-content: center;
+}
+
+.container-svg-infos {
+    align-items: center;
+}
+.svg-infos  {
+    width: 20px;
+    height: 20px;
+}
+
+.description-mission, .texte-infos {
+    font-size: 20px;
+}
+
+.client {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#presentation, .img-presentation, #container-infos-generales, #experiences, #container-formations, #competences, #competences-cles {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#container-competences-cles {
+    display: flex;
+}
+
+#informations {
+    display: flex;
+    justify-content: center; /* Center the containers horizontally in the wrapper */
+    gap: 2rem;
+}
+
+#container-infos-generales, #container-formations {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+#presentation-img {
+    display: flex;
+    max-width: 29rem;
+    max-height: 29rem;
+    flex-direction: column;
+}
+
+.img-presentation {
+    max-width: 29rem;
+}
+
+
+#container-competences {
+    display: grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.column {
+    padding: 10px;
+}
