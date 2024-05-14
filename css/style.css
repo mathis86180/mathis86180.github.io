@@ -52,8 +52,6 @@
 
 #presentation-img {
     display: flex;
-    max-width: 29rem;
-    max-height: 29rem;
     flex-direction: column;
 }
 
